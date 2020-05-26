@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="198" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="core.models.TwitchAccount.objects" />
+          <option value="core.models.ChatMessage.objects" />
+          <option value="core.models.PromotionMessage.*" />
+          <option value="core.models.BannedUser.objects" />
+          <option value="core.models.BannedMessage.objects" />
+          <option value="core.models.TwitchStats.objects" />
+          <option value="core.models.TwitchChannel.objects" />
+          <option value="asyncio.transports.BaseTransport.write" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
